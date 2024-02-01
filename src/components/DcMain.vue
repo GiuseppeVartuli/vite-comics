@@ -7,7 +7,7 @@ export default {
 <template>
   <main>
     <div class="content">
-      <h2>--> Content goes here <--</h2>
+      <h2>Content goes here</h2>
     </div>
     <div class="shop">
       <ul>
