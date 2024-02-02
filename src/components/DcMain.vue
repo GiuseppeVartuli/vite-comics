@@ -7,7 +7,58 @@ export default {
 <template>
   <main>
     <div class="content">
-      <h2>Content goes here</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+          <div class="col-2">
+            <img src="" alt="" />
+            <p>Batman</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="shop">
       <ul>
@@ -48,7 +99,7 @@ export default {
 
 <style>
 .content {
-  height: 132px;
+  min-height: 132px;
   width: 100%;
   background: var(--dc-dark);
   & h2 {
@@ -57,6 +108,22 @@ export default {
     padding-top: 56px;
   }
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  & p {
+    color: var(--dc-light);
+  }
+  & .col-2 {
+    width: calc(100% / 12 * 2);
+  }
+}
+
 .shop {
   height: 155px;
   width: 100%;
@@ -72,6 +139,7 @@ export default {
   }
   & img {
     width: 57px;
+    margin: 10px;
   }
   & a {
     text-decoration: none;

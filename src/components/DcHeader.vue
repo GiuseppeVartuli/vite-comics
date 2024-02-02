@@ -49,6 +49,7 @@ nav {
   }
   & a {
     text-decoration: none;
+    color: var(--dc-primary);
   }
 }
 .logo_top {

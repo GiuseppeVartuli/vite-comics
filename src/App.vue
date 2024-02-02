@@ -12,7 +12,7 @@ export default {
   },
   data() {
     return {
-      cards: [
+      comics: [
         {
           thumb: "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
           price: "$19.99",
