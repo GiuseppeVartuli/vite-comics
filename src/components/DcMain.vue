@@ -1,64 +1,16 @@
 <script>
+import ComicsCard from "./ComicsCard.vue";
+
 export default {
   name: "DcMain",
+  components: { ComicsCard },
 };
 </script>
 
 <template>
   <main>
     <div class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-          <div class="col-2">
-            <img src="" alt="" />
-            <p>Batman</p>
-          </div>
-        </div>
-      </div>
+      <ComicsCard></ComicsCard>
     </div>
     <div class="shop">
       <ul>
@@ -106,21 +58,6 @@ export default {
     color: var(--dc-light);
     padding-left: 320px;
     padding-top: 56px;
-  }
-}
-.container {
-  display: flex;
-  justify-content: center;
-}
-.row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  & p {
-    color: var(--dc-light);
-  }
-  & .col-2 {
-    width: calc(100% / 12 * 2);
   }
 }
 

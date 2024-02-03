@@ -46,10 +46,14 @@ nav {
   & li {
     list-style: none;
     padding: 15px;
+    :hover {
+      border-bottom: 2px solid var(--dc-primary);
+      color: var(--dc-primary);
+    }
   }
   & a {
     text-decoration: none;
-    color: var(--dc-primary);
+    color: var(--dc-gray);
   }
 }
 .logo_top {
