@@ -113,9 +113,10 @@ export default {
   width: 70%;
   & p {
     color: var(--dc-light);
+    width: 150px;
   }
   & .col-2 {
-    width: calc(100% / 12 * 2) - 5px;
+    width: calc(100% / 12 * 2) -15px;
     margin: 15px 5px;
   }
   & img {
