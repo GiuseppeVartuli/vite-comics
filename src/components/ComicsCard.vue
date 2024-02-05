@@ -120,7 +120,8 @@ export default {
     margin: 15px 5px;
   }
   & img {
-    width: 180px;
+    width: 185px;
+    height: 185px;
   }
 }
 </style>
